@@ -1,0 +1,178 @@
+html{
+scroll-behavior:smooth;
+}
+
+body{
+margin:0;
+font-family:Arial;
+background:#0f172a;
+color:white;
+}
+
+/* Header */
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 80px;
+background:#020617;
+}
+
+/* Portfolio Logo */
+
+.logo{
+color:#3b82f6;
+}
+
+/* Navbar */
+
+nav a{
+color:white;
+margin-left:20px;
+text-decoration:none;
+font-weight:500;
+}
+
+nav a:hover{
+color:#3b82f6;
+}
+
+/* Sections */
+
+section{
+padding:80px;
+text-align:center;
+}
+
+.home{
+padding-top:120px;
+}
+
+/* Profile Circle */
+
+.circle{
+width:120px;
+height:120px;
+background:#3b82f6;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:30px;
+margin:auto;
+}
+
+/* Buttons */
+
+.buttons button{
+padding:10px 20px;
+margin:10px;
+border:none;
+background:#3b82f6;
+color:white;
+cursor:pointer;
+border-radius:5px;
+}
+
+.outline{
+background:transparent;
+border:1px solid white;
+}
+
+/* About */
+
+.about-container{
+display:flex;
+justify-content:center;
+gap:40px;
+flex-wrap:wrap;
+}
+
+.box{
+background:#1e293b;
+padding:25px;
+border-radius:10px;
+width:320px;
+}
+
+/* Blue Text */
+
+.blue{
+color:#3b82f6;
+}
+
+/* Sky Blue */
+
+.sky{
+color:#38bdf8;
+}
+
+/* Certificates */
+
+.certificate-container{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:20px;
+}
+
+.certificate-box{
+background:#1e293b;
+padding:15px 25px;
+border-radius:8px;
+border:1px solid #334155;
+}
+
+/* Projects */
+
+.project-container{
+display:flex;
+gap:30px;
+justify-content:center;
+flex-wrap:wrap;
+}
+
+.project-box{
+background:#1e293b;
+padding:20px;
+border-radius:10px;
+width:260px;
+}
+
+/* Skills */
+
+.skills-container{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:20px;
+}
+
+.skill-box{
+background:#1e293b;
+padding:20px;
+border-radius:10px;
+}
+
+.skill-box h3{
+color:#3b82f6;
+}
+
+/* Email Button */
+
+.email-btn{
+background:#3b82f6;
+color:white;
+border:none;
+padding:12px 25px;
+border-radius:6px;
+cursor:pointer;
+}
+
+/* Footer */
+
+footer{
+text-align:center;
+padding:20px;
+background:#020617;
+}

@@ -1,0 +1,210 @@
+html{
+scroll-behavior:smooth;
+}
+
+body{
+margin:0;
+font-family:Arial, sans-serif;
+background:#0f172a;
+color:white;
+}
+
+/* Header */
+
+header{
+display:flex;
+justify-content:space-between;
+padding:20px 80px;
+background:#020617;
+}
+
+.logo{
+color:#38bdf8;
+}
+
+/* Navbar */
+
+nav a{
+color:white;
+margin-left:20px;
+text-decoration:none;
+}
+
+nav a:hover{
+color:#38bdf8;
+}
+
+/* Sections */
+
+section{
+padding:80px;
+text-align:center;
+}
+
+section h2{
+font-size:28px;
+margin-bottom:25px;
+}
+
+/* Home */
+
+.name{
+color:#38bdf8;
+font-size:34px;
+}
+
+.tagline{
+font-size:18px;
+}
+
+.circle{
+width:120px;
+height:120px;
+background:#38bdf8;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:32px;
+margin:auto;
+}
+
+/* Buttons */
+
+.buttons button{
+padding:12px 28px;
+margin:10px;
+border:none;
+background:#38bdf8;
+color:white;
+border-radius:6px;
+cursor:pointer;
+}
+
+.outline{
+background:transparent;
+border:1px solid white;
+}
+
+/* About */
+
+.about-container{
+display:flex;
+gap:40px;
+justify-content:center;
+flex-wrap:wrap;
+}
+
+.box{
+background:#1e293b;
+padding:30px;
+border-radius:10px;
+width:340px;
+}
+
+.title{
+color:#38bdf8;
+}
+
+/* Experience */
+
+.exp-list{
+text-align:left;
+padding-left:20px;
+}
+
+.exp-list li{
+margin-bottom:8px;
+}
+
+/* Certifications */
+
+.certificate-main-box{
+background:#1e293b;
+padding:30px;
+border-radius:10px;
+width:520px;
+margin:auto;
+display:flex;
+flex-wrap:wrap;
+gap:15px;
+justify-content:center;
+}
+
+.certificate-box{
+background:#0f172a;
+padding:12px 18px;
+border-radius:6px;
+border:1px solid #334155;
+}
+
+/* Projects */
+
+.project-container{
+display:flex;
+gap:40px;
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.project-box{
+background:#1e293b;
+padding:25px;
+border-radius:10px;
+width:420px;
+}
+
+.key-feature{
+color:#38bdf8;
+}
+
+.project-list{
+text-align:left;
+padding-left:20px;
+}
+
+.project-list li{
+margin-bottom:8px;
+}
+
+/* Skills */
+
+.skills-container{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:20px;
+}
+
+.skill-box{
+background:#1e293b;
+padding:20px;
+border-radius:10px;
+}
+
+.skill-box h3{
+color:#38bdf8;
+}
+
+/* Contact */
+
+.contact-text{
+font-size:18px;
+margin-bottom:15px;
+}
+
+.email-btn{
+padding:12px 28px;
+background:#38bdf8;
+color:white;
+border:none;
+border-radius:6px;
+cursor:pointer;
+}
+
+/* Footer */
+
+footer{
+padding:20px;
+background:#020617;
+text-align:center;
+}
